@@ -57,6 +57,7 @@ h3 {
 }
 aside h3 {
   color: white;
+  text-shadow:2px 2px 10px black;
 }
 
 
