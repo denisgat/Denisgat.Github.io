@@ -24,12 +24,12 @@ body {
 
 
 h2, h3 {
-  color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
 }
 
 p, li {
   font-family: 'Roboto Condensed', sans-serif;
-  color: #2a2a2a;
+  color: #ffffff;
   font-size: 1.6rem;
   line-height: 1.75;
 }
@@ -53,6 +53,10 @@ h2 {
 h3 {
   font-size: 2.2rem;
   text-align: center;
+}
+
+aside h3{
+  color: white;
 }
 
 
@@ -112,6 +116,7 @@ nav a, nav span{
 nav span{
   -webkit-text-emphasis-style: double-circle;
   text-shadow: 4px 4px 20px black;
+  opacity: .75;
 }
 nav a:hover {
   font-size: 2.3rem;
